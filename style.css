@@ -1,0 +1,17 @@
+.background {
+    background-color: red;
+}
+.center {
+    color: red;
+    background-color: lightblue;
+    border-radius: 5px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h3 {
+    text-align: center;
+    color: white;
+}
