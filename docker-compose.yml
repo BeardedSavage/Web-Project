@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  webprojects:
-    image: webprojects
-    build:
-      context: .
-      dockerfile: ./Dockerfile
