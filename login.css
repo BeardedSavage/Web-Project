@@ -1,0 +1,31 @@
+.email,
+.password {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+body {
+    background-color:rgb(25, 18, 122);
+    text-align: center;
+    padding-top: 20%;
+}
+aside {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: lightblue;
+    float: none;
+}
+article {
+    background-color:blueviolet;
+    border-radius: 8px;
+    border-color: black;
+}
+.fmTitle {
+    text-transform:capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
