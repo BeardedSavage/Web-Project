@@ -1,0 +1,21 @@
+.img-fluid {
+    height: 250px;
+}
+
+.title {
+    background: linear-gradient(rgb(87, 204, 243), black, midnightblue);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 25%;
+      }
+    50% {
+        background-position: 50% 100%;
+      }
+    100% {
+        background-position: 0% 25%;
+      }
+}
