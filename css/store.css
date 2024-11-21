@@ -41,3 +41,8 @@ body {
     background-color: red;
     margin-bottom: 10px;
 }
+
+.buy button:hover {
+    color: black;
+    background-color: white;
+}
