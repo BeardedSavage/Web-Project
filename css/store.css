@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background: no-repeat radial-gradient(midnightblue, grey, blue);
+    animation: gradient-animation infinite ease 10s;
+    background-size: 180% 180%;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+      }
+    50% {
+        background-position: 100% 50%;
+      }
+    100% {
+        background-position: 0% 50%;
+      }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    background-color: forestgreen;
+    border-radius: 5px;
+}
+
+.buy {
+    justify-self: center;
+}
+
+.buy button {
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    margin-bottom: 10px;
+}
