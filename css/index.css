@@ -3,7 +3,7 @@
 }
 
 .title {
-    background: url(/Web-Projects/assets/DayZ.gif);
+    background: linear-gradient(lightblue, midnightblue, black);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
 }
