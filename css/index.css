@@ -3,14 +3,14 @@
 }
 
 .title {
-    background: linear-gradient(rgb(87, 204, 243), black, midnightblue);
+    background: no-repeat url(/Web-Projects/assets/DayZ.gif);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
 }
 
 @keyframes gradient-animation {
     0% {
-        background-position: 0% 25%;
+        background-position: 10% 25%;
       }
     50% {
         background-position: 50% 100%;
