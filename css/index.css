@@ -19,3 +19,24 @@
         background-position: 0% 25%;
       }
 }
+
+.get-info {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.data {
+  justify-self: center;
+}
+
+.data button{
+  background-color: midnightblue;
+  border: none;
+  border-radius: 10px;
+}
+
+.data button:hover {
+  background-color: white;
+  color: black;
+}
