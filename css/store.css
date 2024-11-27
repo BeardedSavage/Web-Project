@@ -46,3 +46,19 @@ body {
     color: black;
     background-color: white;
 }
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .coming-soon {
+    height: 50vh;
+    width: 60%;
+    background: linear-gradient(transparent, slategrey, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
